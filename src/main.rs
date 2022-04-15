@@ -12,6 +12,6 @@ async fn main() {
 
     println!("Let's gooooo!");
     warp::serve(routes)
-        .run(([0, 0, 0, 0], 3030))
+        .run(([0, 0, 0, 0], 80))
         .await;
 }
